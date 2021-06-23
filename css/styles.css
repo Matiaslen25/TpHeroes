@@ -1,0 +1,193 @@
+.descuentos{
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.descuentos p{
+    position: absolute;
+    left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    top: 10px;
+    margin-top: 0;
+}
+
+.titulo{
+    background-color: #00669F;
+    position: fixed;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.titulo h1{
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    left: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.cards{
+    position: absolute;
+    display: flex;
+    width: 1340px;
+    height: 532px;
+    left: 32px;
+    top: 290px;
+    display: inline;
+}
+
+.batman{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 529px;
+    border-radius:25px;
+    background-color: #F3F3F3;
+    margin-right: 90px;
+}
+
+.harley{
+    position: relative;
+    width: 300px;
+    height: 529px;
+    border-radius:25px;
+    background-color: #F3F3F3;
+    display: inline-block;
+    margin-left:90px;
+    margin-right:90px;
+}
+
+.batman2{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 529px;
+    border-radius:25px;
+    background-color:#F3F3F3;
+    margin-left: 90px;
+}
+
+.fondo{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+}
+
+.foto{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    left:90px;
+    top: 133px;
+}
+
+.cards h2{
+    position: absolute;
+    width: fit-content;
+    height: 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+
+.batman-h2{
+    left: 90px;
+    top: 250px;
+}
+
+.harley h2{
+    left: 47px;
+    top: 250px;
+}
+
+.cards p{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 25px;
+    top: 310px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+
+.cards button{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    left: 90px;
+    top: 470px;
+
+    color: white;
+    background: #00669F;
+    border-radius: 5px;
+}
+
+.cards i{
+    color: #CC2424;
+    height: fit-content;
+    font-size: 2em;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: 15px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer p{
+    position: absolute;
+    width: 337px;
+    height: 51px;
+    left: 15px;
+    margin: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #FFF9F9;
+
+}
